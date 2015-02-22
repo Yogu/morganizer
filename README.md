@@ -1,0 +1,2 @@
+# morganizer
+Organize your spendings
