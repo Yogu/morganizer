@@ -38,6 +38,8 @@ restify.serve(router, CategoryModel);
 restify.serve(router, TransactionModel);
 app.use(router);
 
+app.use(express.static(__dirname+'/client/dist'));
+
 app.listen(3000, function() {
 	console.log("Express server listening on port 3000");
 });
